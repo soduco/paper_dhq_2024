@@ -1,0 +1,31 @@
+---
+runme:
+  id: 01HFS0R7XF10H1KAHSZHCCMMHT
+  version: v2.0
+---
+**Authors:** J. Gravier, S. Baciocchi, P. Cristofoli, B. Dumenieu (EHESS), E. Carlinet, J. Chazalon (EPITA), N. Abadie, J. Perret S. Tual (IGN)
+
+**Title:** Evaluating and Understanding Digital Transcription and Enrichment of City Directories of Paris Through Data Science (1799-1914)
+
+**Abstract:** City Directories became an international publishing phenomenon during the 19th century in Europe and USA. They consist of large lists of individuals, merchants or prominent inhabitants, businesses, organizations and institutions, each with description and address. Published at a fast pace, often yearly, they provide massive, fine-grained and highly valuable geohistorical information for in-depth interdisciplinary studies of social and spatial aspects of cities(1,2,3,4). However, analyzing the content of these directories over time and with a high temporal frequency requires a considerable amount of manual transcription, structuring, geolocation and data linking work. To overcome this difficulty, we have proposed an automatic pipeline to extract, semantically annotate, geocode and analyze the contents of 141 directories of Paris published between 1799 and 1914. First, each page is processed using image segmentation to extract its layout and detect directories entries, i.e. regions containing a triple composed of a person (physical or moral), an activity and an address. OCR is applied on each entry to get its textual content, which is then semantically enriched using a deep-learning based Named Entity Recognition approach(5). Finally, each address is assigned a geographic position in the city using a geocoding process. To the best of our knowledge, this is one of the first times that such a large structured corpus of longitudinal data on a city has been created and released in open access(6,7).
+
+Major challenges arise with such corpus built from sources spanning on a large time interval. Theoretical and methodological implications are numerous, affecting both the extraction processes, and the new knowledge that can be derived from the data. For extraction, it implies that both the internal organization of documents and the information evolve. Spatial enrichment leverages historical maps of Paris so the geocoding takes into account the changes in the numbering and streets over the century, including Haussmann’s renovation(8). The timespan also means that technical, political, economical and social context change and affect how companies edit directory collections and display their own content. For spatio-temporal analysis, the size and granularity of the final dataset are also challenging. It contains more than 10M entries and then cannot be apprehended without data science approaches.
+
+In this article, we show how data science can be used to assess the quality of the dataset and to critically analyze the city directories of Paris as historical data. Indicators at the level of a single entry, or at a whole directory, enable us to assess the quality of extraction steps and to identify the impacts of errors in the overall pipeline. Then we demonstrate how data-driven spatial and temporal analyses of entries help to better distinguish between errors and actual changes and provide feedback for improving the automatic process. It also reveals patterns that reflect the history of sources, such as editorial choices that had not previously been known. Developing a critical evaluation of digital historical datasets during their construction is of essential importance for their relevance as sources for historical studies. We show how data science can efficiently contribute to the historical method and help scholars to better understand a corpus that changed the scale of the possible analyses on the evolution of Paris during a century of particularly strong economic, demographic and social changes.
+—--
+
+(1) di Lenardo Isabella, Barman Raphaël, Descombes Albane et Kaplan Frédéric, 2019, « Repopulating Paris: massive extraction of 4 Million addresses from city directories between 1839 and 1922. », Digital Humanities Conference 2019 (DH2019), Utrecht, Utrecht University, the Netherlands 9-12 July 2019, https://dev.clariah.nl/files/dh2019
+
+(2) Bell Samuel, Marlow Thomas, Wombacher Kai, Hitt Anina, Parikh Neev, Zsom Andras et Frickel Scott, 2020, « Automated data extraction from historical city directories: The rise and fall of mid-century gas stations in Providence, RI », PLoS ONE, 2020, vol. 15, nᵒ 8,  https://doi.org/10.1371/journal.pone.0220219
+
+(3) Kappner Kalle et Albers Thilo, 2022, « Perks and Pitfalls of City Directories as a Micro-Geographic Data Source ». Explorations in Economic History, vol. 87, 101476, 2023, https://doi.org/10.1016/j.eeh.2022.101476
+
+(4) Social Dynamics in Urban Context. Open tools, models and data - Paris and its suburbs, 1789-1950, https://soduco.github.io/
+
+(5) N. Abadie, E. Carlinet, J. Chazalon, et B. Duménieu, « A Benchmark of Named Entity Recognition Approaches in Historical Documents Application to 19th Century French Directories », in Document Analysis Systems, S. Uchida, E. Barney, et V. Eglin, Éd., in Lecture Notes in Computer Science. Cham: Springer International Publishing, 2022, p. 445‑460, https://doi.org/10.1007/978-3-031-06555-2_30
+
+(6) GeoHistoricalData, « Annuaires historiques parisiens, 1798-1914. Extraction structurée et géolocalisée à l'adresse des listes nominatives par ordre alphabétique et par activité dans les volumes numérisés », Dataset, Nakala, 2023, https://doi.org/10.34847/nkl.98eem49t
+
+(7) Wolf Nicholas, Chioh Wesley, Balogh Stephen et Spaan Bert, 2020, « New York City Directories Extracted Persons Entries, 1850-1890 », Dataset, New York University Faculty Digital Archive, 2020, https://archive.nyu.edu/handle/2451/61521
+
+(8) R. Cura, B. Dumenieu, N. Abadie, B. Costes, J. Perret, et M. Gribaudi, « Historical collaborative geocoding », ISPRS International Journal of Geo-Information, vol. 7, nᵒ 7, p. 1‑29, 2018, https://doi.org/10.3390/ijgi7070262 
