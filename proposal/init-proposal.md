@@ -1,8 +1,3 @@
----
-runme:
-  id: 01HFS0R7XF10H1KAHSZHCCMMHT
-  version: v2.0
----
 **Authors:** J. Gravier, S. Baciocchi, P. Cristofoli, B. Dumenieu (EHESS), E. Carlinet, J. Chazalon (EPITA), N. Abadie, J. Perret S. Tual (IGN)
 
 **Title:** Evaluating and Understanding Digital Transcription and Enrichment of City Directories of Paris Through Data Science (1799-1914)
