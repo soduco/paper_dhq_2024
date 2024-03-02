@@ -1,3 +1,9 @@
+---
+runme:
+  id: 01HR03H6VJZHC51ER9VPWV3704
+  version: v3
+---
+
 ## R packages used
 
 <table>
@@ -115,8 +121,6 @@ data-cites="tidyverse">Wickham et al. (2019)</span></td>
 </tbody>
 </table>
 
-**You can paste this paragraph directly in your report:**
-
 We used R version 4.2.0 (R Core Team 2022) and the following R packages:
 classInt v. 0.4.9 (Bivand 2023), colorspace v. 2.1.0 (Zeileis, Hornik,
 and Murrell 2009; Stauffer et al. 2009; Zeileis et al. 2020), concaveman
@@ -132,11 +136,11 @@ Baddeley, Rubak, and Turner 2015), tidyverse v. 2.0.0 (Wickham et al.
 
 ## Package citations
 
-Arnold, Jeffrey B. 2021. *<span class="nocase">ggthemes</span>: Extra
-Themes, Scales and Geoms for “<span class="nocase">ggplot2</span>”*.
+Arnold, Jeffrey B. 2021. *ggthemes: Extra
+Themes, Scales and Geoms for “ggplot2”*.
 <https://CRAN.R-project.org/package=ggthemes>.
 
-Auguie, Baptiste. 2017. *<span class="nocase">gridExtra</span>:
+Auguie, Baptiste. 2017. *gridExtra:
 Miscellaneous Functions for “Grid” Graphics*.
 <https://CRAN.R-project.org/package=gridExtra>.
 
@@ -146,7 +150,7 @@ Hall/CRC Press.
 <https://www.routledge.com/Spatial-Point-Patterns-Methodology-and-Applications-with-R/Baddeley-Rubak-Turner/p/book/9781482210200/>.
 
 Baddeley, Adrian, and Rolf Turner. 2005.
-“<span class="nocase">spatstat</span>: An R Package for Analyzing
+“spatstat: An R Package for Analyzing
 Spatial Point Patterns.” *Journal of Statistical Software* 12 (6): 1–42.
 <https://doi.org/10.18637/jss.v012.i06>.
 
@@ -155,21 +159,21 @@ Baddeley, Adrian, Rolf Turner, Jorge Mateu, and Andrew Bevan. 2013.
 *Journal of Statistical Software* 55 (11): 1–43.
 <https://doi.org/10.18637/jss.v055.i11>.
 
-Bivand, Roger. 2023. *<span class="nocase">classInt</span>: Choose
+Bivand, Roger. 2023. *classInt: Choose
 Univariate Class Intervals*.
 <https://CRAN.R-project.org/package=classInt>.
 
 Dowle, Matt, and Arun Srinivasan. 2023.
-*<span class="nocase">data.table</span>: Extension of
-“<span class="nocase">data.frame</span>”*.
+*data.table: Extension of
+“data.frame”*.
 <https://CRAN.R-project.org/package=data.table>.
 
-Dunnington, Dewey. 2023. *<span class="nocase">ggspatial</span>: Spatial
+Dunnington, Dewey. 2023. *ggspatial: Spatial
 Data Framework for Ggplot2*.
 <https://CRAN.R-project.org/package=ggspatial>.
 
 Gombin, Joël, Ramnath Vaidyanathan, and Vladimir Agafonkin. 2020.
-*<span class="nocase">concaveman</span>: A Very Fast 2D Concave Hull
+*concaveman: A Very Fast 2D Concave Hull
 Algorithm*. <https://CRAN.R-project.org/package=concaveman>.
 
 Mark Padgham, Bob Rudis, Robin Lovelace, and Maëlle Salmon. 2017.
@@ -179,15 +183,15 @@ Mark Padgham, Bob Rudis, Robin Lovelace, and Maëlle Salmon. 2017.
 Meschiari, Stefano. 2022. *Latex2exp: Use LaTeX Expressions in Plots*.
 <https://CRAN.R-project.org/package=latex2exp>.
 
-Pebesma, Edzer. 2018. “<span class="nocase">Simple Features for R:
-Standardized Support for Spatial Vector Data</span>.” *The R Journal* 10
+Pebesma, Edzer. 2018. “Simple Features for R:
+Standardized Support for Spatial Vector Data.” *The R Journal* 10
 (1): 439–46. <https://doi.org/10.32614/RJ-2018-009>.
 
-Pebesma, Edzer, and Roger Bivand. 2023. *<span class="nocase">Spatial
-Data Science: With applications in R</span>*. Chapman and Hall/CRC.
+Pebesma, Edzer, and Roger Bivand. 2023. *Spatial
+Data Science: With applications in R*. Chapman and Hall/CRC.
 <https://r-spatial.org/book/>.
 
-Pedersen, Thomas Lin. 2022. *<span class="nocase">patchwork</span>: The
+Pedersen, Thomas Lin. 2022. *patchwork: The
 Composer of Plots*. <https://CRAN.R-project.org/package=patchwork>.
 
 R Core Team. 2022. *R: A Language and Environment for Statistical
@@ -201,16 +205,16 @@ Society* 96 (2): 203–16. <https://doi.org/10.1175/BAMS-D-13-00155.1>.
 
 Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy
 D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019.
-“Welcome to the <span class="nocase">tidyverse</span>.” *Journal of Open
+“Welcome to the tidyverse.” *Journal of Open
 Source Software* 4 (43): 1686. <https://doi.org/10.21105/joss.01686>.
 
 Wickham, Hadley, and Dana Seidel. 2022.
-*<span class="nocase">scales</span>: Scale Functions for Visualization*.
+*scales: Scale Functions for Visualization*.
 <https://CRAN.R-project.org/package=scales>.
 
 Zeileis, Achim, Jason C. Fisher, Kurt Hornik, Ross Ihaka, Claire D.
 McWhite, Paul Murrell, Reto Stauffer, and Claus O. Wilke. 2020.
-“<span class="nocase">colorspace</span>: A Toolbox for Manipulating and
+“colorspace: A Toolbox for Manipulating and
 Assessing Colors and Palettes.” *Journal of Statistical Software* 96
 (1): 1–49. <https://doi.org/10.18637/jss.v096.i01>.
 
