@@ -49,12 +49,12 @@ Data of the manual evaluation of the geocoding in the fringes of the dense urban
 
 Two data-sets compose the administrative delineations of Paris:
 
-- 1790-1860: A.-L. Bethe, « Dataset: Vasserot “Quartiers” (Neighbourhoods) (1790-1860) - Licence ODbL 1.0 », Analyse Diachronique de l’espace Urbain Parisien: Approche Geomatique, 2015, [Online]. Available at: http://purl.stanford.edu/ry227xq8127. Data is in _data-paris-delim_ file.
+- 1790-1860: A.-L. Bethe, « Dataset: Vasserot “Quartiers” (Neighbourhoods) (1790-1860) - Licence ODbL 1.0 », Analyse Diachronique de l’espace Urbain Parisien: Approche Geomatique, 2015, [Online]. Available at: http://purl.stanford.edu/ry227xq8127. Data is in _data-paris-delim/Vasserot_district_ file.
 
-- 1860-1919: district data (named in _data/init_datasets_ "quartiers_paris_post_1860") was created in SoDUCo ANR Project and are open on Nakala platform [doi: 10.34847/nkl.a57506s3](https://doi.org/10.34847/nkl.a57506s3). See documentation in .pdf format on Nakala platform for precise information and licence to know how to use the data. Data is in _data-paris-delim_ file.
+- 1860-1919: district data was created in SoDUCo ANR Project and are open on Nakala platform [doi: 10.34847/nkl.a57506s3](https://doi.org/10.34847/nkl.a57506s3), Creative Commons Attribution Share Alike 4.0 International. See documentation in .pdf format on Nakala platform for precise information. Data titled here "quartiers_paris_post_1860" is in _data-paris-delim_ file.
 
 Thiers enclosure:
-- 1841-1849: R&CAP. « Enceinte de Thiers (1841 à 1844), Limites liées au système de bastions », Licence ODbL 1.0, 2021, [Online]. Available at: http://www.fabriquenumeriquedupasse.fr/explore/dataset/rcap-enceinte-de-thiers-1841-a-1844-limites-liees-au-systeme-de-bastions. Data is in _data-paris-delim_ file.
+- 1841-1849: R&CAP. « Enceinte de Thiers (1841 à 1844), Limites liées au système de bastions », Licence ODbL 1.0, 2021, [Online]. Available at: http://www.fabriquenumeriquedupasse.fr/explore/dataset/rcap-enceinte-de-thiers-1841-a-1844-limites-liees-au-systeme-de-bastions. Data is in _data-paris-delim/Thiers_enclosure_ file.
 
 
 ## R code information
