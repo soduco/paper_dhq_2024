@@ -1,2 +1,10 @@
 
 .DS_Store
+.Rproj.user
+data-analysis/.RData
+data-analysis/.Rhistory
+data-analysis/data-download/directories-ListProfs.gpkg.zip
+data-analysis/directories-ListNoms.gpkg
+fig_update/figure1-proposition.jpg
+fig_update/first_fig.svg
+*.Rproj

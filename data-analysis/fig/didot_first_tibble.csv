@@ -1,0 +1,14 @@
+"","geocoding.query.layer","geocoding.response.layer","geocoding.response.source","IntraExtra","n"
+"1","address","address","atlas_jacoubet_1836",1,51163
+"2","address","address","atlas_municipal_1888",0,221
+"3","address","address","atlas_municipal_1888",1,2975
+"4","address","street","atlas_andriveaugoujon_1849",1,1267
+"5","address","street","atlas_jacoubet_1836",1,2540
+"6","address","street","atlas_municipal_1888",0,57
+"7","address","street","atlas_municipal_1888",1,237
+"8","address","street","atlas_verniquet_1791",0,4
+"9","address","street","atlas_verniquet_1791",1,44
+"10","address","street","custom_catchall_alwaysvalid",1,248
+"11","address",NA,NA,1,46
+"12","locality",NA,NA,1,418
+"13",NA,NA,NA,1,755
