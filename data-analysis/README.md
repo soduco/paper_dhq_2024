@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HR03H6VJZHC51ER9VPWV3704
-  version: v3
----
-
 ## R packages used
 
 <table>
