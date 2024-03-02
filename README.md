@@ -5,7 +5,7 @@ Repository for the material of our paper submitted in [special issue](https://ww
 - [ ] 1st of March, 2024: first version of paper (5000/8000 words)
 - [ ] 15 May, 2024: final version to DHQ
 
-## Repository organisation
+## Repository organisation of data-analysis
 ```
 .
 ├── data-1845-didot-outskirts
