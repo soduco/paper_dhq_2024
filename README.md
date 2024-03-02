@@ -53,8 +53,8 @@ Two data-sets compose the administrative delineations of Paris:
 
 - 1860-1919: district data (named in _data/init_datasets_ "quartiers_paris_post_1860") was created in SoDUCo ANR Project and are open on Nakala platform [doi: 10.34847/nkl.a57506s3](https://doi.org/10.34847/nkl.a57506s3). See documentation in .pdf format on Nakala platform for precise information and licence to know how to use the data. Data is in _data-paris-delim_ file.
 
-Thiers wall:
-- 1841-1849: R&CAP. « Enceinte de Thiers (1841 à 1844), Limites liées au système de bastions », Licence ODbL 1.0, 2021, [Online]. Available at: http://www.fabriquenumeriquedupasse.fr/explore/dataset/rcap-enceinte-de-thiers-1841-a-1844-limites-liees-au-systeme-de-bastions.
+Thiers enclosure:
+- 1841-1849: R&CAP. « Enceinte de Thiers (1841 à 1844), Limites liées au système de bastions », Licence ODbL 1.0, 2021, [Online]. Available at: http://www.fabriquenumeriquedupasse.fr/explore/dataset/rcap-enceinte-de-thiers-1841-a-1844-limites-liees-au-systeme-de-bastions. Data is in _data-paris-delim_ file.
 
 
 ## R code information
