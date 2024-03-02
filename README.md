@@ -6,7 +6,31 @@ Repository for the material of our paper submitted in [special issue](https://ww
 - [ ] 15 May, 2024: final version to DHQ
 
 ## Repository organisation
-
+```
+.
+├── data-1845-didot-outskirts
+│   ├── 1845_didot_etudes_marges.gpkg
+│   └── 1845_didot_etudes_marges.qml
+├── data-geocoder-gazetteer
+│   ├── atlas_andriveaugoujon_1849_streets_centerpoints.csv
+│   ├── atlas_jacoubet_1836_housenumbers.csv
+│   ├── atlas_jacoubet_1836_streets_centerpoints.csv
+│   ├── atlas_municipal_1888_housenumbers.csv
+│   ├── atlas_municipal_1888_streets_centerpoints.csv
+│   └── atlas_verniquet_1791_streets_centerpoints.csv
+├── data-paris-delim
+│   ├── Thiers_enclosure/...
+│   ├── Vasserot_district/...
+│   ├── map_shapes.gpkg
+│   └── quartiers_paris_post_1860.shp
+├── fig/...
+├── 1_data-download.R
+├── 2_data-analysis.R
+├── directories-ListNoms.gpkg
+├── functions.R
+├── grateful-refs.bib
+└── README.md
+```
 
 ## Data information
 ### City directories
