@@ -712,17 +712,20 @@ gazetteers <- read.csv("data-geocoder-gazetteer/atlas_municipal_1888_streets_cen
 # - 1890
 directories <- st_read(dsn = "directories-ListNoms.gpkg", layer = "1835") %>%
   st_cast(x=., to="POINT") %>%
+  select(geom, geocoding.response.source) %>%
   # Keep only unique points, ie. addresses
-  group_by_all() %>%
   unique() %>%
   st_transform(crs = 2154) %>%
   mutate(directory = 1835)
 
 
-
 directories <- directories %>% bind_rows(
   st_read(dsn = "directories-ListNoms.gpkg", layer = "1890") %>%
     st_cast(x=., to="POINT") %>%
+    select(geom, geocoding.response.source) %>%
+    # Keep only unique points, ie. addresses
+    unique() %>%
+    st_as_sf() %>%
     st_transform(crs = 2154) %>%
     mutate(directory = 1890))
 
