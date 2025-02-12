@@ -7,6 +7,8 @@ Repository for the material of our paper submitted in [special issue](https://ww
 ├── data-1845-didot-outskirts
 │   ├── 1845_didot_etudes_marges.gpkg
 │   └── 1845_didot_etudes_marges.qml
+├── data-1900-1904-petit-Montrouge-district
+│   └── points_1900_1904_quartier_petit_montrouge.gpkg
 ├── data-geocoder-gazetteer
 │   ├── atlas_andriveaugoujon_1849_streets_centerpoints.csv
 │   ├── atlas_jacoubet_1836_housenumbers.csv
@@ -39,7 +41,11 @@ The gazetteer used in geocoding process is in _data-geocoder-gazetteer_ file.
 
 ### Geocoding evaluation of Didot 1845 directory
 
-Data of the manual evaluation of the geocoding in the fringes of the dense urban area of Paris from the directory of Didot in 1845 is contained in _data-1845-didot-outskirts_ file.
+Data from the manual evaluation of the geocoding in the fringes of the dense urban area of Paris from the directory of Didot in 1845 is contained in _data-1845-didot-outskirts_ file.
+
+### Specific study of the Petit Montrouge district
+
+Data from the manual qualitative analysis of directory entries belonging to the Petit Montrouge district between 1900 and 1904 is contained in _data-1900-1904-petit-Montrouge-district_ file.
 
 ### Administrative delineations of Paris during the 19th century and Thiers wall
 
